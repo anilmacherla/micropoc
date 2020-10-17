@@ -1,0 +1,18 @@
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border:2px solid;
+    margin-top:10px;
+    border-collapse: collapse;   
+}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: right;
+    background-color: #27a4df;
+    color: rgb(255, 255, 255);
+  }
+
+ 

@@ -3,7 +3,7 @@ import { MatTable } from '@angular/material/table';
 import { MatDialog } from '@angular/material/dialog';
 
 import { ViewChild } from '@angular/core';
-import { DialogBoxComponent } from '../dialog-box/dialog-box.component';
+import { DialogBoxComponent } from './dialog-box/dialog-box.component';
 
 
 const ELEMENT_DATA: UsersData[] = [

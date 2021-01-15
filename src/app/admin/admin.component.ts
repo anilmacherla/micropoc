@@ -7,10 +7,10 @@ import { DialogBoxComponent } from './dialog-box/dialog-box.component';
 
 
 const ELEMENT_DATA: UsersData[] = [
-  {id: 1560608769632, name: 'Anil'},
-  {id: 1560608796014, name: 'Andy'},
-  {id: 1560608787815, name: 'Arya'},
-  {id: 1560608805101, name: 'Ajith'}
+  {id: 1560608769632, name: 'Deloitte'},
+  {id: 1560608796014, name: 'KPMG'},
+  {id: 1560608787815, name: 'PWC'},
+  {id: 1560608805101, name: 'WF'}
 ];
 
 @Component({
@@ -20,7 +20,7 @@ const ELEMENT_DATA: UsersData[] = [
 })
 
 export class AdminComponent {
-  displayedColumns: string[] = ['id', 'name', 'action'];
+  displayedColumns: string[] = ['id', 'ORG', 'action'];
   dataSource = ELEMENT_DATA;
 
   @ViewChild(MatTable,{static:true}) table: MatTable<any>;
